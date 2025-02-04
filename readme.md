@@ -2,6 +2,18 @@
 
 This is a sample project showing some possible problmes with changelog and inserting multiple records. Based of the Incidents managemenet reference app.
 
+## To replicate
+
+In the terminal:
+```
+cds watch
+```
+
+Open test/bugreport.http
+
+Fire the sample requests `createSingle`, `createMultiple1`,`createMultiple2`,`createMultiple3`. In theory all of them should create records alongside the corresponding change log records. In practice. Only the createSingle and createMultiple3 do.
+
+
 # Incident Management
 
 Welcome to the Incident Management reference sample application for CAP and development recommendations provided by the SAP BTP Developer Guide.

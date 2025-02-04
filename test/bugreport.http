@@ -1,0 +1,32 @@
+@host = http://localhost:4004
+
+POST {{host}}/odata/v4/processor/createSingle
+Authorization: Basic alice:wonderland
+Content-Type: application/json
+
+{}
+
+
+#######################################################
+
+POST {{host}}/odata/v4/processor/createMultiple1
+Authorization: Basic alice:wonderland
+Content-Type: application/json
+
+{}
+
+#######################################################
+
+POST {{host}}/odata/v4/processor/createMultiple2
+Authorization: Basic alice:wonderland
+Content-Type: application/json
+
+{}
+
+#######################################################
+
+POST {{host}}/odata/v4/processor/createMultiple3
+Authorization: Basic alice:wonderland
+Content-Type: application/json
+
+{}
